@@ -226,7 +226,7 @@ async def next_page(bot, query):
                                   callback_data="pages")]
         )
         btn.append(
-            [InlineKeyboardButton("🤔 𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 ", url=f"https://youtube.com/shorts/NUZSuwNQtps")])
+            [InlineKeyboardButton("🤔 𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 ", url=f"https://youtu.be/w2Bz1Pi-HA0")])
         btn.append(
             [InlineKeyboardButton('🚪 𝐂𝐋𝐎𝐒𝐄', callback_data='close_data')])
     elif off_set is None:
@@ -234,7 +234,7 @@ async def next_page(bot, query):
             [InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
              InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
         btn.append(
-            [InlineKeyboardButton("🤔 𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 ", url=f"https://youtube.com/shorts/NUZSuwNQtps")])
+            [InlineKeyboardButton("🤔 𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 ", url=f"https://youtu.be/w2Bz1Pi-HA0")])
         btn.append([InlineKeyboardButton('🚪 𝐂𝐋𝐎𝐒𝐄', callback_data='close_data')])
     else:
         btn.append(
@@ -244,7 +244,7 @@ async def next_page(bot, query):
                 InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
-        btn.append([InlineKeyboardButton("🤔 𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 ", url=f"https://youtube.com/shorts/NUZSuwNQtps")])
+        btn.append([InlineKeyboardButton("🤔 𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 ", url=f"https://youtu.be/w2Bz1Pi-HA0")])
         btn.append([InlineKeyboardButton('🚪 𝐂𝐋𝐎𝐒𝐄', callback_data='close_data')])
     try:
         await query.edit_message_reply_markup(
@@ -559,7 +559,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer('Piracy Is Crime')
+        await query.answer('BOTS MADE BY TRUMBOTS')
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
@@ -818,7 +818,7 @@ async def auto_filter(client, msg, spoll=False):
              )
 
     btn.append([
-                InlineKeyboardButton("🤔 𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 ", url=f"https://youtube.com/shorts/NUZSuwNQtps"),
+                InlineKeyboardButton("🤔 𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 ", url=f"https://youtu.be/w2Bz1Pi-HA0"),
             ])
     btn.append([InlineKeyboardButton('🚪 𝐂𝐋𝐎𝐒𝐄', callback_data='close_data')])     
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
