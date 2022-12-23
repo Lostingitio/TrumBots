@@ -43,7 +43,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamEvamaria')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "FILE NAME : <code>{file_name}</code>\n\n" 
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "FILE NAME : <a href=https://t.me/movie_time_botonly>{file_name}</a>\n\n" 
 
 "\n\nSize : <i>{file_size}</i>\n\n"
 
