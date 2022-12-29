@@ -8,5 +8,5 @@ requests
 bs4
 imdbpy==2021.4.18
 shortzy
-
+git+https://github.com/cinemagoer/cinemagoer
 aiohttp
