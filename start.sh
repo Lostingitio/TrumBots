@@ -4,9 +4,9 @@ then
   git clone https://github.com/EvamariaTG/EvaMaria.git /EvaMaria
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /EvaMariatb
+  git clone $UPSTREAM_REPO /Trumcard
 fi
-cd /EvaMariatb
+cd /Trumcard
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 bot.py
