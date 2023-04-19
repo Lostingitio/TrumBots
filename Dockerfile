@@ -1,6 +1,6 @@
 FROM python:3.9-slim-buster
 
-RUN pip install --upgrade pip
+RUN apt install --upgrade pip
 
 RUN apt update && apt upgrade -y
 RUN apt install git -y
