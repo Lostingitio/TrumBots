@@ -9,4 +9,4 @@ fi
 cd /Trumcard
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
-python3 bot.py
+python3 bost.py
