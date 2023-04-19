@@ -7,8 +7,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /EvaMariatb
-WORKDIR /EvaMariatb
-RUN rm -rf EvaMariatb 
+RUN mkdir /Trumcard
+WORKDIR /Trumcard
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
