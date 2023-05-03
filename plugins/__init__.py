@@ -6,7 +6,7 @@ routes = web.RouteTableDef()
 
 async def root_route_handler(request):
 
-    return web.json_response("Mᴋɴ Bᴏᴛᴢ")
+    return web.json_response("TRUMBOTS")
 
 async def web_server():
 
