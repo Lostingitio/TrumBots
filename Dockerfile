@@ -11,4 +11,6 @@ WORKDIR /app
 
 COPY . .
 
-CMD ["python", "bot.py"]
+COPY start.sh /start.sh
+CMD ["/bin/bash", "/start.sh"]
+EXPOSE 80
