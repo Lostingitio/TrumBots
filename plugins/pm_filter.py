@@ -1396,20 +1396,19 @@ async def auto_filter(client, msg, spoll=False):
                  InlineKeyboardButton("Quality👁",  callback_data=f"quality#{key}") 
             ]
                   )   
-
-        btn.insert(0, 
+         btn.insert(0, 
             [
                 
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs🔉", callback_data=f"languages#{key}"),
                 InlineKeyboardButton("Sᴇᴀsᴏɴs📼",  callback_data=f"seasons#{key}")
             ]
         )
-        btn.insert(0,
+         btn.insert(0,
             [
                   InlineKeyboardButton(f'Sᴇʟᴇᴄᴛ Extra Filters ⬇️', 'select')  
             ]
                   )   
-        btn.insert(0, [
+         btn.insert(0, [
             InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ🤖", url=f"https://telegram.me/{temp.U_NAME}"),
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥✅", callback_data=f"sendfiles#{key}")
         ])
