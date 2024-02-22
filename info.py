@@ -72,3 +72,8 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 SHORTENER_API = environ.get("SHORTENER_API", "9d7e32c571c44b3ee91a814fa25c31e0211f5aeb")
 LONG_DROPLINK_URL = environ.get("LONG_DROPLINK_URL","https://paisakamalo.in/api")
+LANGUAGES = ["malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan", "dual","multi"]
+
+SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "season 6" , "season 7" , "season 8" , "season 9" , "season 10"]
+
+QUALITY=["1080p","720p","480p","360p","2160p","4k"]
